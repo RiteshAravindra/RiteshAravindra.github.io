@@ -12,46 +12,139 @@
 <body>
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav_logo">Ritesh</a>
+            <a href="#" class="nav__logo">Ritesh</a>
 
             <div class="nav__menu" id="nav-menu">
-                <ul class="nav_list grid">
+                <ul class="nav__list grid">
                     <li class="nav__item">
                         <a href="#home" class="nav__link">
-                            <i class="uil uil-estate"></i>Home
+                            <i class="uil uil-estate nav__icon"></i>Home
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#about" class="nav__link">
-                            <i class="uil uil-user"></i>About
+                            <i class="uil uil-user nav__icon"></i>About
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt"></i>Skills
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#services" class="nav__link">
-                            <i class="uil uil-briefcase-alt"></i>Services
+                            <i class="uil uil-briefcase-alt nav__icon"></i>Services
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery"></i>Portfolio
+                            <i class="uil uil-scenery nav__icon"></i>Portfolio
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                            <i class="uil uil-message"></i>Contactme
+                            <i class="uil uil-message nav__icon"></i>Contactme
                         </a>
                     </li>
                 </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
+
+            <div class="nav__btns">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+            
         </nav>
     </header>
 
     <main class="main">
+        <!-- home -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social ">
+                        <a href="https://www.linkedin.com/in/ritesh-aravindra-378273229/" class="home__social-icon" target="_blank">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://accounts.google.com/v3/signin/identifier?dsh=S1191967961%3A1663024364153559&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AQDHYWrG9purz6wlcI9THu_n2SmemvtywEjWJmhP7vQ73PgTQumkWERayQJbEPokjuaraH2ytb93" class="home__social-icon" target="_blank">
+                            <i class="uil uil-fast-mail"></i>
+                        </a>
+                        <a href="https://github.com/RiteshAravindra" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                                <image class="home__blob-img" x="100" y="60" href="assets/img/RiteshIngaleshwarPhoto (1)_page-0001.jpeg"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Hi, I'am Ritesh Aravindra
+                        </h1>
+                        <h3 class="home__subtitle">Backend Java developer</h3>
+                        <!-- <p class="home__description">Aspiring Java Backend Developer with a specialization in Java, Spring Boot, SQL, REST APIs, Git/Github, AWS, HTML, CSS, Javascript, Object-oriented, design Self- motivated and curious, with a keen interest in building user-centric products. Looking forward to honing my skills in a challenging work environment.</p> -->
+                        <a href="#contact" class="button button--flex">
+                            Contact Me<i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/IMG_0691.jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">
+                        Aspiring Java Backend Developer with a specialization in Java, Spring Boot, SQL, REST APIs, Git/Github, AWS, HTML, CSS, Javascript, Object-oriented, design Self- motivated and curious, with a keen interest in building user-centric products. Looking forward to honing my skills in a challenging work environment.
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">Fresher</span>
+                            <span class="about__info-name">1200+ coding hours <br> at Masai</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">3+</span>
+                            <span class="about__info-name">Completed <br> projects</span>
+                        </div>
+                        <!-- <div>
+                            <span class="about__info-title">Fresher</span>
+                            <span class="about__info-name">1200+ coding hours <br> at Masai</span>
+                        </div> -->
+                    </div>
+                    <div class="about__button">
+                        <a download="" href="assets/pdf/RiteshAravindraIngaleshwar_Resume.pdf" class="button button--flex">
+                            Download Resume<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
         
     </main>
     
