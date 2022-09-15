@@ -1,3 +1,5 @@
+// import Swiper from "./swiper-bundle.esm.browser.min";
+
 const navMenu=document.getElementById('nav-menu'),
 navToggle =document.getElementById('nav-toggle'),
 navClose= document.getElementById('nav-close')
@@ -45,3 +47,18 @@ function toggleSkills(){
 skillsHeader.forEach((el)=>{
     el.addEventListener('click',toggleSkills)
 })
+
+// let swiper = new Swiper('.portfolio__container',{
+//     cssMode :true,
+//     loop:true,
+//     navigation : {
+//         nextEl : '.swiper-button-next',
+//         prevEl : '.swiper-button-prev',
+
+//     },pagination : {
+//         el: '.swiper-pagination',
+//         clickable:true,
+//     },
+//     mousewheel:true,
+//     keyboard :true,
+// });
