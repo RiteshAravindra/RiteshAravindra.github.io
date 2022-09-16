@@ -180,7 +180,7 @@ text-align: center;
 .nav__toggle:hover{
     color:var(--first-color)
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 390px){
     .nav__menu{
         position: fixed;
         bottom: -100%;
