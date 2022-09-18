@@ -654,7 +654,9 @@ color: var(--first-color-lighter);
       margin-left: var(--mb-1);
       margin-right: var(--mb-1);
     }
-  
+    .calender{
+      width: 100px;
+    }
     .nav__menu {
       padding: 2rem .25rem 4rem;
     }
@@ -727,7 +729,9 @@ color: var(--first-color-lighter);
     .home__content {
       grid-template-columns: max-content 1fr 1fr;
     }
-  
+    .calender{
+      width: 35%;
+    }
     .home__data {
       grid-column: initial;
     }
@@ -758,7 +762,9 @@ color: var(--first-color-lighter);
       margin-left: auto;
       margin-right: auto;
     }
-  
+  .calender{
+    width: 50%;
+  }
     body {
       margin: 0;
     }

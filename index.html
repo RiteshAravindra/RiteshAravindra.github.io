@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     <title>Ritesh</title>
 </head>
 <body>
@@ -556,6 +556,14 @@
                 </div>
             </div>
         </section>
+        <div class="heading" id="github">
+            <h2 class="section__title">GitHub</h2>
+            <span class="section__subtitle">My GitHub</span>
+        </div>
+    <div class="calendar" style=" width:70%;">
+       
+        Loading the data for you.
+    </div>
         <section class="contact section" id="contact">
             <h2 class="section__title">Contact Me</h2>
             <span class="section__subtitle">Get In Touch</span>
@@ -650,3 +658,20 @@
 </body>
 </html>
 <script src="assets/js/main.js"></script>
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+</script>
+
+<script>
+    GitHubCalendar(".calendar", "RiteshAravindra");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "RiteshAravindra", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "RiteshAravindra", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${RiteshAravindra}`)
+       }
+    }).then(r => r.text());
+</script>
