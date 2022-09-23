@@ -1379,6 +1379,10 @@ margin-bottom: var(--mb-2-5);
     margin-right: auto;
   }
 
+  #statics .skills-box{
+    width: 220px;
+}
+
   body {
     margin: 0;
   }
@@ -1675,6 +1679,58 @@ margin-bottom: var(--mb-2-5);
 .skills__open .skills__arrow{
   transform: rotate(-180deg);
 }
+
+
+#statics{
+  display: grid;
+  grid-template-columns: repeat(3,minmax(200px,auto));
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.circle{
+  border: 10px solid var(--main-color);
+  padding: 2rem;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  font-weight: var(--big-font);
+  font-size: 20px;
+  align-items: center;
+  border-radius:50%;
+}
+.circle:hover{
+border-color: #22cf91;
+color: #fff;
+}
+
+
+
+
+#myskills{
+  display: grid;
+  grid-template-columns: repeat(2,minmax(200px,auto));
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+#myskills .skills-box{
+  border: 1px solid;
+  width: 450px;
+}
+
+
+.skills-box{
+  padding: 20px;
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid var(--main-color);
+  box-shadow: 0 2px 7px rgba(14, 55, 54 /15%);
+}
 }
 
 
@@ -1857,6 +1913,13 @@ margin-bottom: var(--mb-2-5);
     margin-right: var(--mb-1);
   }
 
+  #statics .skills-box{
+    width: 150px;
+}
+
+#statics{
+  grid-template-columns: repeat(2,1fr);
+}
   .nav__menu {
     padding: 2rem .25rem 4rem;
   }
@@ -1961,6 +2024,14 @@ margin-bottom: var(--mb-2-5);
     margin-right: var(--mb-1);
   }
 
+  #statics{
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+  #statics .skills-box{
+    width: 150px;
+}
   .nav__menu {
     padding: 2rem .25rem 4rem;
   }
@@ -2051,4 +2122,7 @@ margin-bottom: var(--mb-2-5);
   .testimonial__description {
     text-align: center;
   }
+
+
+
 }
