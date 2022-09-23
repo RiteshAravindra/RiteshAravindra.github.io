@@ -1306,6 +1306,23 @@ margin-bottom: var(--mb-2-5);
 #myskills{
     grid-template-columns: repeat(1,1fr);
 }
+#myskill .skills-box {
+  /* border: 1px solid red; */
+  margin-left: 70px;
+}
+.skills-content{
+  /* border: 1px solid green; */
+  /* align-items: center; */
+  
+}
+/* .about__button {
+  border: 1px solid yellow;
+} */
+.about__button > a{
+  
+  margin-left: 60px;
+}
+
 
   .testimonial__data,
   .testimonial__header {
@@ -1895,6 +1912,129 @@ margin-bottom: var(--mb-2-5);
 #myskills{
     grid-template-columns: repeat(1,1fr);
 }
+
+  .testimonial__data,
+  .testimonial__header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial__img {
+    margin-right: 0;
+    margin-bottom: var(--mb-0-25);
+  }
+
+  .testimonial__data,
+  .testimonial__description {
+    text-align: center;
+  }
+
+ 
+/* .skills-content{
+  display: block;
+} */
+  .skills-content {
+    /* border: 1px solid red; */
+    /* margin-left: 90px; */
+    /* border: 1px solid red; */
+    width: 100%;
+   
+   
+
+  }
+
+  .skills-box{
+    margin-left: 25%;
+  }
+  
+  
+  .about__button > a{
+    
+    margin-left: 75px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+
+  .nav__menu {
+    padding: 2rem .25rem 4rem;
+  }
+
+  .nav__list {
+    column-gap: 0;
+  }
+
+  .home__content {
+    grid-template-columns: .25fr 3fr;
+  }
+
+  .home__blob {
+    width: 180px;
+  }
+
+  .skills__title {
+    font-size: var(--normal-font-size);
+  }
+
+  .qualification__data {
+    gap: .5rem;
+  }
+
+  .services__container {
+    grid-template-columns: max-content;
+    justify-content: center;
+  }
+
+  .services__content {
+    padding-right: 3.5rem;
+  }
+
+  .services__modal {
+    padding: 0 .5rem;
+  }
+
+  .project__img {
+    width: 200px;
+
+
+  }
+
+  .skills-content{
+    grid-template-columns: repeat(2,1fr);
+}
+.skills-box{
+    width: 200px;
+}
+#myskills .skills-box{
+    width: 200px;
+}
+#myskills{
+    grid-template-columns: repeat(1,1fr);
+}
+.skills-box{
+  margin-left: 25%;
+}
+
+
+.about__button > a{
+  
+  margin-left: 75px;
+}
+
+/* .skills-content{ */
+  /* border: 1px solid green; */
+  /* align-items: center; */
+  
+/* } */
+
+/* .about__button {
+  border: 1px solid yellow;
+} */
 
   .testimonial__data,
   .testimonial__header {
