@@ -42,9 +42,7 @@ Have a look ⬇️
 
 ##Contributors:
 ## @Ritesh Aravindra
-## @Somya
-## @Gaurav
-## @Hamant
+
 
 
 
