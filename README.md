@@ -1,6 +1,6 @@
 # RiteshAravindra.github.io
 
- My portfolio created using HTML, CSS, Javascript . Here you can find all the detail about me and ny projects.
+ My portfolio created using HTML, CSS, Javascript . Here you can find all the detail about me and my projects.
 
 
 This was a group project executed within 5 days of span.
