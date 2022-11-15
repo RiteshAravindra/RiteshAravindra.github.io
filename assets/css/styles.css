@@ -1,6 +1,4 @@
-/*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
-
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -9,7 +7,7 @@
   /*========== Colors ==========*/
   /* Change favorite color */
   --hue-color: 0; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
-  --hue-color1: 0;
+  --hue-color1:0;
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 100%, 25%);
   --first-color-second: hsl(var(--hue-color), 100%, 25%);
@@ -21,7 +19,7 @@
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color1), 100%, 100%);
+  --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
