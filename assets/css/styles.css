@@ -1,5 +1,9 @@
 /*==================== GOOGLE FONTS ====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Charm&display=swap'); */
+/* * {
+    font-family: 'MyWebFont', cursive;
+} */
 
 /*==================== VARIABLES CSS ====================*/
 :root {
@@ -7,10 +11,10 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 240; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 39; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 69%, 61%);
+  --first-color: hsl(var(--hue-color), 100%, 50%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   /* --first-color: hsl(var(--hue-color), 4%, 16%); 
   --first-color-second: hsl(var(--hue-color), 4%, 16%); */
